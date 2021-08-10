@@ -1,0 +1,37 @@
+{
+  "name": "fabbrica",
+  "version": "1.0.0",
+  "description": "TypeScript library to create object factories that do mocking and testing a breeze",
+  "repository": "https://www.github.com/arkadiuszbachorski/fabbrica",
+  "author": "Arkadiusz Bachorski",
+  "license": "MIT",
+  "keywords": [
+    "factory",
+    "mock",
+    "test",
+    "stub",
+    "generation",
+    "fabricca"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "awesome-typescript-loader": "^5.2.1",
+    "jest": "^27.0.5",
+    "prettier": "^2.3.1",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.4",
+    "webpack": "^5.40.0",
+    "webpack-cli": "^4.7.2",
+    "rimraf": "^3.0.2"
+  }
+}
