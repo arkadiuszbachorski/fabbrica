@@ -15,15 +15,15 @@ Inspired by [factory_boy](https://github.com/FactoryBoy/factory_boy) and [Larave
 
 ## Installation
 
-You can use any data source you want with **fabbrica**. In the examples we are going to use [faker.js](https://github.com/marak/Faker.js/) and we can recommend it!
+You can use any data source you want with **fabbrica**. In the examples we are going to use [Faker](https://github.com/faker-js/faker) and we can recommend it!
 
-`yarn add fabbrica faker`
+`yarn add fabbrica @faker-js/faker`
 
 ## Defining factories
 
 ```typescript
 import { Factory } from 'fabbrica';
-import faker from 'faker';
+import faker from '@faker-js/faker';
 
 interface User {
   id: string;
